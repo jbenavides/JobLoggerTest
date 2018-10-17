@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLoggerApp", "JobLoggerApp\JobLoggerApp.csproj", "{4BC58F0F-141A-4844-8247-33CF2BE2EF91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLoggerAppTests", "JobLoggerAppTests\JobLoggerAppTests.csproj", "{FEBF4990-2001-4CBE-936B-E84691144904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4BC58F0F-141A-4844-8247-33CF2BE2EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC58F0F-141A-4844-8247-33CF2BE2EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC58F0F-141A-4844-8247-33CF2BE2EF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBF4990-2001-4CBE-936B-E84691144904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBF4990-2001-4CBE-936B-E84691144904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBF4990-2001-4CBE-936B-E84691144904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBF4990-2001-4CBE-936B-E84691144904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

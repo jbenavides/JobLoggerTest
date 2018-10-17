@@ -1,4 +1,6 @@
-﻿namespace JobLoggerApp.DI
+﻿using JobLoggerApp.Helpers;
+
+namespace JobLoggerApp.DI
 {
     using System;
     using Implementations;
@@ -27,6 +29,7 @@
             container.RegisterType<IDatabaseLogger, DatabaseLogger>();
             container.RegisterType<ILevelLogger, LevelLogger>();
             container.RegisterType<ILevelLoggerSettings, LevelLoggerSettings>();
+            container.RegisterType<IDatabaseLoggerHelper, DatabaseLoggerHelper>();
 
 
             container.RegisterType<IConsoleLoggerCommand, ConsoleLoggerCommand>();

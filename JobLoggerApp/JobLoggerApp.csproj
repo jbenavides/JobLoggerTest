@@ -76,6 +76,7 @@
     <Compile Include="Demo\FileLoggerCommand.cs" />
     <Compile Include="Demo\ICommand.cs" />
     <Compile Include="DI\UnityConfig.cs" />
+    <Compile Include="Helpers\DatabaseLoggerHelper.cs" />
     <Compile Include="Helpers\Helper.cs" />
     <Compile Include="Helpers\LevelLoggerConfigurationSection.cs" />
     <Compile Include="Helpers\CustomExceptions.cs" />
@@ -87,7 +88,6 @@
     <Compile Include="Interfaces\ILogBase.cs" />
     <Compile Include="Implementations\LevelLogger.cs" />
     <Compile Include="Implementations\LevelLoggerSettings.cs" />
-    <Compile Include="Helpers\LogTarget.cs" />
     <Compile Include="Helpers\MessageType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -22,7 +22,7 @@
            var allowedLevels = _levelLogger.GetAllowedLevels();
 
             if(allowedLevels.Contains(messageType))
-                Console.WriteLine($"Date: {DateTime.Now}, MessageType: {messageType}, Message: {message}");
+                Console.WriteLine($"Date: {DateTime.Now:dd/MM/yyy hh:mm}, MessageType: {messageType}, Message: {message}");
             else
                 throw new MessageTypeNotAllowedException($"Message type: {messageType} is not allowed, please enable it in the settings file.");
         }
