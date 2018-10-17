@@ -2,7 +2,7 @@
 
 The observations are in the document: [codeReviewJB.docx](https://github.com/jbenavides/JobLoggerTest/blob/master/codeReviewJB.docx?raw=true "Code review document")
 
-For this exercise a console app was implemented, there are some views how the app works:
+For this exercise a console app was implemented, these are some views about how the app works:
 
 ## Console
 ![Alt text](/img/LogToConsole.PNG)
